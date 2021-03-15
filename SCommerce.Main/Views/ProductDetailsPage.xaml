@@ -56,7 +56,7 @@
                     MaxHeight="300"
                     VerticalAlignment="Top"
                     CornerRadius="45">
-                    <Image Source="{x:Bind viewModel.SelectedImage}" 
+                    <Image Source="{x:Bind viewModel.SelectedImage, Mode=OneWay}" 
                    Stretch="UniformToFill"/>
                 </Border>
 
@@ -77,7 +77,8 @@
 
                 <ListView ItemsSource="{x:Bind viewModel.Images}"
                           ItemsPanel="{StaticResource ImagePanelTemplate}"
-                          ItemTemplate="{StaticResource ImageDataTemplate}" />
+                          ItemTemplate="{StaticResource ImageDataTemplate}" 
+                          SelectedItem="{x:Bind viewModel.SelectedImage, Mode=TwoWay}" />
 
                 <TextBlock FontSize="50" Margin="0 20">
                     <Run Text="R$"/>

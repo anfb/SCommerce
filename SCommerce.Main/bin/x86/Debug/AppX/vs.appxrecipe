@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-15T17:28:22.676</Modified>
+      <Modified>2021-03-15T19:58:17.792</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\SCommerce.Main.exe">
       <PackagePath>entrypoint\SCommerce.Main.exe</PackagePath>
-      <Modified>2021-03-15T17:28:21.542</Modified>
+      <Modified>2021-03-15T19:58:17.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -102,19 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\SCommerce.Main.xr.xml">
       <PackagePath>SCommerce.Main.xr.xml</PackagePath>
-      <Modified>2021-03-15T17:28:21.203</Modified>
+      <Modified>2021-03-15T18:10:49.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-14T13:51:01.854</Modified>
+      <Modified>2021-03-15T19:54:04.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-14T13:51:01.854</Modified>
+      <Modified>2021-03-15T19:54:04.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Views\ProductDetailsPage.xbf">
       <PackagePath>Views\ProductDetailsPage.xbf</PackagePath>
-      <Modified>2021-03-15T17:28:21.214</Modified>
+      <Modified>2021-03-15T19:54:04.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,7 +126,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Core\SCommerce.Main.exe">
       <PackagePath>SCommerce.Main.exe</PackagePath>
-      <Modified>2021-03-15T17:28:22.665</Modified>
+      <Modified>2021-03-15T19:58:17.788</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
