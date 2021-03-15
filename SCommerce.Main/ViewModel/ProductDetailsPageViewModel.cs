@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prism.Windows.Mvvm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SCommerce.Main.ViewModel
 {
-    public class ProductDetailsPageViewModel : INotifyPropertyChanged
+    public class ProductDetailsPageViewModel : ViewModelBase
     {
         public string Title { get; set; }
         public string Description { get; set; }
@@ -18,14 +19,7 @@ namespace SCommerce.Main.ViewModel
         public string selectedImage;
         public string SelectedImage {
             get { return selectedImage; }
-            set { 
-                    if(selectedImage != value)
-                    {
-                        selectedImage = value;
-                        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("SelectedImage"));
-                    }
-                    
-                }
+            set { SetProperty(ref selectedImage, value); }
         }
 
         public ProductDetailsPageViewModel()
