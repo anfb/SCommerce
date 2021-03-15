@@ -1,14 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ZGcC5J3PlnfJymEBYi0gbHNlqgZIckzJbISRLiVVH8BhOgPwTdI0PX3HKVC6t9SPT8FeZCD8BABvJzPcVLMMsw==",
+  "dgSpecHash": "lxVgzB7gAWoZk6+Xmf6Q12hmxj1dWdeFvXhm446KVCdO7DjbMRXMhAI+VGDQ8IQ2TnzAZyahGpSNFwxPZUnBjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\anfb\\source\\repos\\SCommerce\\SCommerce.Main\\SCommerce.Main.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anfb\\.nuget\\packages\\commonservicelocator\\1.3.0\\commonservicelocator.1.3.0.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\anfb\\.nuget\\packages\\prism.core\\6.3.0\\prism.core.6.3.0.nupkg.sha512",
+    "C:\\Users\\anfb\\.nuget\\packages\\prism.unity\\6.3.0\\prism.unity.6.3.0.nupkg.sha512",
+    "C:\\Users\\anfb\\.nuget\\packages\\prism.windows\\6.3.0\\prism.windows.6.3.0.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
@@ -26,7 +30,8 @@
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-x86.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
     "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
-    "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512"
+    "C:\\Users\\anfb\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\anfb\\.nuget\\packages\\unity\\4.0.1\\unity.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
