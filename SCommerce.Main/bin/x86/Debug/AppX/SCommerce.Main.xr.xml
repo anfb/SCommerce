@@ -4,7 +4,7 @@
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
   <Roots.RootTypes>
-    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Prism.Unity.Windows.PrismUnityApplication" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
@@ -101,5 +101,6 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="SCommerce.Main.Views.ProductDetailsPage" />
+    <RootType FullName="SCommerce.Main.Views.WelcomePage" />
   </Roots.RootTypes>
 </Roots>

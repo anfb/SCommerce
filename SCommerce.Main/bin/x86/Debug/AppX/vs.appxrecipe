@@ -30,17 +30,41 @@
     <AppXManifest Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-15T19:58:17.792</Modified>
+      <Modified>2021-03-15T23:11:22.285</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\SCommerce.Main.exe">
       <PackagePath>entrypoint\SCommerce.Main.exe</PackagePath>
-      <Modified>2021-03-15T19:58:17.180</Modified>
+      <Modified>2021-03-15T23:11:20.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-05-05T14:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\prism.core\6.3.0\lib\wpa81\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+      <Modified>2017-03-24T21:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\prism.unity\6.3.0\lib\uap10.0\Prism.Unity.Windows.dll">
+      <PackagePath>Prism.Unity.Windows.dll</PackagePath>
+      <Modified>2017-03-24T21:34:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\prism.windows\6.3.0\lib\uap10.0\Prism.Windows.dll">
+      <PackagePath>Prism.Windows.dll</PackagePath>
+      <Modified>2017-03-24T21:34:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T22:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+      <Modified>2015-10-05T12:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+      <Modified>2015-10-05T12:37:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -102,19 +126,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\SCommerce.Main.xr.xml">
       <PackagePath>SCommerce.Main.xr.xml</PackagePath>
-      <Modified>2021-03-15T18:10:49.373</Modified>
+      <Modified>2021-03-15T23:09:13.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-15T19:54:04.812</Modified>
+      <Modified>2021-03-15T23:10:04.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-15T19:54:04.812</Modified>
+      <Modified>2021-03-15T23:10:04.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Views\ProductDetailsPage.xbf">
       <PackagePath>Views\ProductDetailsPage.xbf</PackagePath>
-      <Modified>2021-03-15T19:54:04.812</Modified>
+      <Modified>2021-03-15T23:10:04.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Views\WelcomePage.xbf">
+      <PackagePath>Views\WelcomePage.xbf</PackagePath>
+      <Modified>2021-03-15T23:10:04.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-14T13:51:03.422</Modified>
+      <Modified>2021-03-15T23:09:14.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anfb\source\repos\SCommerce\SCommerce.Main\bin\x86\Debug\Core\SCommerce.Main.exe">
       <PackagePath>SCommerce.Main.exe</PackagePath>
-      <Modified>2021-03-15T19:58:17.788</Modified>
+      <Modified>2021-03-15T23:11:22.281</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
