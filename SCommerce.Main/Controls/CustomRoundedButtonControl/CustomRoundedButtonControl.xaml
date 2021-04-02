@@ -1,0 +1,75 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="using:SCommerce.Main.Controls.CustomRoundedButtonControl">
+
+    <Style x:Key="OpenImageButtonStyle" TargetType="control:CustomRoundedButtonControl" >
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Width" Value="Auto" />
+        <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="control:CustomRoundedButtonControl">
+                    <Grid x:Name="RootElement"
+                          Background="{TemplateBinding Background}"
+                          BorderBrush="{TemplateBinding BorderBrush}"
+                          BorderThickness="{TemplateBinding BorderThickness}">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonState">
+                                <VisualState x:Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Target="PART_BackgroundBorder.Background" Value="Red" />
+                                        <Setter Target="PART_TextBlock.Foreground" Value="AliceBlue" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="PointerOver">
+                                    <VisualState.Setters>
+                                        <Setter Target="PART_BackgroundBorder.Background" Value="Red" />
+                                        <Setter Target="PART_TextBlock.Foreground" Value="Purple" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Target="PART_BackgroundBorder.Background" Value="Red" />
+                                        <Setter Target="PART_TextBlock.Foreground" Value="Pink" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <VisualState.Setters>
+                                        <Setter Target="PART_BackgroundBorder.Background" Value="Gray"/>
+                                        <Setter Target="PART_TextBlock.Foreground" Value="Yellow" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Content"
+                                          HighContrastAdjustment="None">
+                            <Border x:Name="PART_BackgroundBorder" 
+                                    Height="36"
+                                    CornerRadius="18">
+                                <StackPanel Orientation="Horizontal"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center">
+                                    <Image x:Name="PART_Image"
+                                           Source="{TemplateBinding Image}"
+                                           Width="30"
+                                           Height="30"
+                                           HorizontalAlignment="Stretch"
+                                           VerticalAlignment="Stretch"
+                                           Margin="0 0 17 0" />
+                                    <TextBlock x:Name="PART_TextBlock" 
+                                               VerticalAlignment="Center"
+                                               Text="{TemplateBinding Content}"
+                                               FontFamily="Segoe UI"
+                                               FontWeight="SemiBold"
+                                               FontSize="{TemplateBinding FontSize}" />
+                                </StackPanel>
+                            </Border>
+                        </ContentPresenter>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
