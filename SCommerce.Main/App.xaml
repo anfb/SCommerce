@@ -6,6 +6,12 @@
     
     <prism:PrismUnityApplication.Resources>
         <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light" Source="Themes/LightModeColors.xaml" />
+                <ResourceDictionary x:Key="Dark" Source="Themes/DarkModeColors.xaml" />
+                <ResourceDictionary x:Key="HighContrast" Source="Themes/HighContrastColors.xaml" />
+            </ResourceDictionary.ThemeDictionaries>
+
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Themes/Generic.xaml" />
                 <ResourceDictionary Source="Controls/CustomRoundedButtonControl/CustomRoundedButtonControl.xaml"/>
